@@ -2,11 +2,17 @@
 
 ## Using Github API to store 
 
+In Github
+
 1. Create a Github personal acces token: https://docs.github.com/en/free-pro-team@latest/github/authenticating-to-github/creating-a-personal-access-token
-2. Create embedded variables in your Qualtrics survey to store data up to this point, and data including the new data point. Let's call these "old_data" and "new_data" respectively
-3. Use the "Web Service" feature by Qualtrics to get current data via the Github API (with the GET method). Screenshot below
-4. JavaSCript
-5. Github API using PUT method
+2. Create a repository and add a file the data can be written to, for example "data.txt" BETTER TO HAVE SOME KIND OF CSV FILE
+
+In Qualtrics
+
+3. Create embedded variables in your Qualtrics survey to store data up to this point, and data including the new data point. Let's call these "old_data" and "new_data" respectively
+4. Use the "Web Service" feature by Qualtrics to get current data via the Github API (with the GET method). Screenshot below
+5. JavaSCript
+6. Github API using PUT method
 
 ## Thompson sampling with binary outcome
 
